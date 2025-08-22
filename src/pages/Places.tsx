@@ -7,6 +7,8 @@ import { Car, MapPin, Phone, Star, Users, Clock, CheckCircle, MessageCircle, Spa
 import Navigation from '@/components/Navigation';
 import patternOverlay from '@/assets/pattern-overlay.jpg';
 import dallakeImg from '@/assets/dallake.jpeg';
+import wularlakeImg from '@/assets/wularlake.jpeg';
+import manasbalImg from '@/assets/manasbal lkae.jpeg';
 import gulmargImg from '@/assets/Gulmarg.jpeg';
 import pahalghamImg from '@/assets/pahalgham.jpeg';
 import sonamargImg from '@/assets/sonamarg.jpeg';
@@ -16,7 +18,8 @@ import kokernagImg from '@/assets/kokernag.jpeg';
 import achbalImg from '@/assets/achbal.jpeg';
 import daksumImg from '@/assets/daksum.jpg';
 import sinthanTopImg from '@/assets/sinthan top.jpeg';
-import dalLakeImg from '@/assets/dal-lake.jpg';
+import nishatImg from '@/assets/nishat.jpeg';
+import shalimarImg from '@/assets/shalimar.jpeg';
 const Places = () => {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const destinations = [
