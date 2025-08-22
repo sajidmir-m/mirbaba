@@ -6,6 +6,16 @@ import { Link } from 'react-router-dom';
 import { Car, MapPin, Phone, Star, Users, Clock, CheckCircle, MessageCircle, Sparkles, Heart, Camera, Mountain, TreePine, Waves, Calendar, Filter } from 'lucide-react';
 import Navigation from '@/components/Navigation';
 import patternOverlay from '@/assets/pattern-overlay.jpg';
+import dallakeImg from '@/assets/dallake.jpeg';
+import gulmargImg from '@/assets/Gulmarg.jpeg';
+import pahalghamImg from '@/assets/pahalgham.jpeg';
+import sonamargImg from '@/assets/sonamarg.jpeg';
+import gurezImg from '@/assets/gurez.jpg';
+import gurezVideo from '@/assets/gurez.mp4';
+import kokernagImg from '@/assets/kokernag.jpeg';
+import achbalImg from '@/assets/achbal.jpeg';
+import daksumImg from '@/assets/daksum.jpg';
+import sinthanTopImg from '@/assets/sinthan top.jpeg';
 
 const Places = () => {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
