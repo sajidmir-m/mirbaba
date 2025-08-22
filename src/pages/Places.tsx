@@ -6,21 +6,25 @@ import { Link } from 'react-router-dom';
 import { Car, MapPin, Phone, Star, Users, Clock, CheckCircle, MessageCircle, Sparkles, Heart, Camera, Mountain, TreePine, Waves, Calendar, Filter } from 'lucide-react';
 import Navigation from '@/components/Navigation';
 import patternOverlay from '@/assets/pattern-overlay.jpg';
+
+// Import all destination images
 import dallakeImg from '@/assets/dallake.jpeg';
-import drungImg from '@/assets/dallake.jpeg';
-import wularlakeImg from '@/assets/wularlake.jpeg';
-import manasbalImg from '@/assets/manasbal lkae.jpeg';
-import gulmargImg from '@/assets/Gulmarg.jpeg';
+import mansbalLakeImg from '@/assets/manasbal lkae.jpeg';
+import wularLakeImg from '@/assets/wular lake.jpeg';
 import pahalghamImg from '@/assets/pahalgham.jpeg';
-import sonamargImg from '@/assets/sonamarg.jpeg';
 import gurezImg from '@/assets/gurez.jpg';
-import gurezVideo from '@/assets/gurez.mp4';
+import sinthanTopImg from '@/assets/sinthan top.jpeg';
+import daksumImg from '@/assets/daksum.jpg';
+import gulmargImg from '@/assets/Gulmarg.jpeg';
+import sonamargImg from '@/assets/sonamarg.jpeg';
+import drungImg from '@/assets/drung.jpeg';
+import shalimarImg from '@/assets/shalimar.jpeg';
+import nishatImg from '@/assets/nishat.jpeg';
 import kokernagImg from '@/assets/kokernag.jpeg';
 import achbalImg from '@/assets/achbal.jpeg';
-import daksumImg from '@/assets/daksum.jpg';
-import sinthanTopImg from '@/assets/sinthan top.jpeg';
-import nishatImg from '@/assets/nishat.jpeg';
-import shalimarImg from '@/assets/shalimar.jpeg';
+import verinagImg from '@/assets/verinag.jpg';
+import tulipImg from '@/assets/tulip.jpeg';
+
 const Places = () => {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const destinations = [
@@ -42,7 +46,7 @@ const Places = () => {
       duration: '3-4 hours',
       bestTime: 'April to October',
       highlights: ['Bird Watching', 'Lotus Blooms', 'Boating', 'Peaceful Ambiance'],
-      image: manasbalImg, // Updated lake image
+      image: mansbalLakeImg, // Updated lake image
       category: 'Lake'
     },
     {
@@ -52,7 +56,7 @@ const Places = () => {
       duration: 'Full day',
       bestTime: 'May to September',
       highlights: ['Bird Sanctuary', 'Fishing', 'Boat Rides', 'Nature Photography'],
-      image: wularlakeImg, // Updated lake image
+      image: wularLakeImg, // Updated lake image
       category: 'Lake'
     },
     
@@ -138,7 +142,7 @@ const Places = () => {
       duration: '2-3 hours',
       bestTime: 'March to October',
       highlights: ['Mughal Architecture', 'Garden Walks', 'Photography', 'Historical Site'],
-      image:  shalimarImg, // Updated garden image
+      image: shalimarImg, // Updated garden image
       category: 'Garden'
     },
     {
@@ -148,7 +152,7 @@ const Places = () => {
       duration: '2-3 hours',
       bestTime: 'March to October',
       highlights: ['Terraced Gardens', 'Mountain Views', 'Fountains', 'Cultural Heritage'],
-      image: '/src/assets/nishat.jpeg', // Mughal Gardens image
+      image: nishatImg, // Mughal Gardens image
       category: 'Garden'
     },
     {
@@ -158,7 +162,7 @@ const Places = () => {
       duration: 'Full day',
       bestTime: 'April to October',
       highlights: ['Trout Fishing', 'Natural Springs', 'Gardens', 'Picnic Spots'],
-      image: '/src/assets/kokernag.jpeg', // Updated garden image
+      image: kokernagImg, // Updated garden image
       category: 'Garden'
     },
     {
@@ -168,7 +172,7 @@ const Places = () => {
       duration: 'Full day',
       bestTime: 'April to October',
       highlights: ['Mughal Architecture', 'Natural Springs', 'Peaceful Ambiance', 'Photography'],
-      image: '/src/assets/achbal.jpeg', // Updated garden image
+      image: achbalImg, // Updated garden image
       category: 'Garden'
     },
     {
@@ -178,7 +182,7 @@ const Places = () => {
       duration: 'Full day',
       bestTime: 'April to October',
       highlights: ['Jhelum Source', 'Mughal Architecture', 'Natural Springs', 'Historical Site'],
-      image: '/src/assets/verinag.jpg', // Updated garden image
+      image: verinagImg, // Updated garden image
       category: 'Garden'
     },
     {
@@ -188,7 +192,7 @@ const Places = () => {
       duration: '2-3 hours',
       bestTime: 'March to April',
       highlights: ['Tulip Blooms', 'Photography', 'Mountain Views', 'Seasonal Festival'],
-      image: '/src/assets/tulip.jpeg', // Updated garden image
+      image: tulipImg, // Updated garden image
       category: 'Garden'
     }
   ];
