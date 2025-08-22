@@ -7,6 +7,7 @@ import { Car, MapPin, Phone, Star, Users, Clock, CheckCircle, MessageCircle, Spa
 import Navigation from '@/components/Navigation';
 import patternOverlay from '@/assets/pattern-overlay.jpg';
 import dallakeImg from '@/assets/dallake.jpeg';
+import drungImg from '@/assets/dallake.jpeg';
 import wularlakeImg from '@/assets/wularlake.jpeg';
 import manasbalImg from '@/assets/manasbal lkae.jpeg';
 import gulmargImg from '@/assets/Gulmarg.jpeg';
@@ -41,7 +42,7 @@ const Places = () => {
       duration: '3-4 hours',
       bestTime: 'April to October',
       highlights: ['Bird Watching', 'Lotus Blooms', 'Boating', 'Peaceful Ambiance'],
-      image: '/src/assets/manasbal lkae.jpeg', // Updated lake image
+      image: manasbalImg, // Updated lake image
       category: 'Lake'
     },
     {
@@ -63,7 +64,7 @@ const Places = () => {
       duration: 'Full day',
       bestTime: 'April to October',
       highlights: ['Betaab Valley', 'Aru Valley', 'Trekking', 'River Rafting'],
-      image: '/src/assets/pahalgham.jpeg', // Pahalgam image
+      image: pahalghamImg, // Pahalgam image
       category: 'Valley'
     },
     {
@@ -73,7 +74,7 @@ const Places = () => {
       duration: '2-3 days',
       bestTime: 'June to September',
       highlights: ['Habba Khatoon Peak', 'Dard-Shin Culture', 'Fishing', 'Trekking'],
-      image: '/src/assets/gurez.jpg', // Updated valley image
+      image: gurezImg, // Updated valley image
       category: 'Valley'
     },
     {
@@ -83,7 +84,7 @@ const Places = () => {
       duration: 'Full day',
       bestTime: 'May to October',
       highlights: ['Snow Activities', 'Panoramic Views', 'Photography', 'Adventure'],
-      image: '/src/assets/sinthan top.jpeg', // Updated valley image
+      image: sinthanTopImg, // Updated valley image
       category: 'Valley'
     },
     {
@@ -93,7 +94,7 @@ const Places = () => {
       duration: 'Full day',
       bestTime: 'April to October',
       highlights: ['Dense Forests', 'Fishing', 'Camping', 'Nature Walks'],
-      image: '/src/assets/daksum.jpg', // Updated valley image
+      image: daksumImg, // Updated valley image
       category: 'Valley'
     },
     
@@ -105,7 +106,7 @@ const Places = () => {
       duration: 'Full day',
       bestTime: 'December to March (Skiing), May to September (Flowers)',
       highlights: ['Gondola Ride', 'Skiing', 'Golf Course', 'Mountain Views'],
-      image: '/src/assets/Gulmarg.jpeg', // Gulmarg image
+      image: gulmargImg, // Gulmarg image
       category: 'Hill Station'
     },
     {
@@ -115,7 +116,7 @@ const Places = () => {
       duration: 'Full day',
       bestTime: 'May to September',
       highlights: ['Thajiwas Glacier', 'Mountain Trekking', 'Photography', 'Adventure Sports'],
-      image: '/src/assets/sonamarg.jpeg', // Sonamarg image
+      image: sonamargImg, // Sonamarg image
       category: 'Hill Station'
     },
     {
@@ -125,7 +126,7 @@ const Places = () => {
       duration: 'Full day',
       bestTime: 'April to October',
       highlights: ['Waterfall', 'Picnic Spot', 'Trekking', 'Photography'],
-      image: '/src/assets/drung.jpeg', // Updated hill station image
+      image: drungImg, // Updated hill station image
       category: 'Hill Station'
     },
     
@@ -137,7 +138,7 @@ const Places = () => {
       duration: '2-3 hours',
       bestTime: 'March to October',
       highlights: ['Mughal Architecture', 'Garden Walks', 'Photography', 'Historical Site'],
-      image: '/src/assets/shalimar.jpeg', // Updated garden image
+      image:  shalimarImg, // Updated garden image
       category: 'Garden'
     },
     {
