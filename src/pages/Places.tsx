@@ -31,7 +31,7 @@ const Places = () => {
       duration: '2-4 hours',
       bestTime: 'March to November',
       highlights: ['Houseboat Stay', 'Shikara Ride', 'Floating Gardens', 'Sunset Views'],
-      image: '/src/assets/dallake.jpeg', // Dal Lake image
+      image: dallakeImg, // Dal Lake image
       category: 'Lake'
     },
     {
@@ -51,7 +51,7 @@ const Places = () => {
       duration: 'Full day',
       bestTime: 'May to September',
       highlights: ['Bird Sanctuary', 'Fishing', 'Boat Rides', 'Nature Photography'],
-      image: '/src/assets/wular lake.jpeg', // Updated lake image
+      image: wularlakeImg, // Updated lake image
       category: 'Lake'
     },
     
