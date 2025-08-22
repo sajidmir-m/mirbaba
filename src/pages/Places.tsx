@@ -16,7 +16,7 @@ import kokernagImg from '@/assets/kokernag.jpeg';
 import achbalImg from '@/assets/achbal.jpeg';
 import daksumImg from '@/assets/daksum.jpg';
 import sinthanTopImg from '@/assets/sinthan top.jpeg';
-
+import dalLakeImg from '@/assets/dal-lake.jpg';
 const Places = () => {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const destinations = [
